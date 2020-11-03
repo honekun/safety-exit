@@ -47,6 +47,8 @@ Currently there are only two options for button placement. \"Bottom Left\" and \
 2. Back end configuration of the button
 
 == Changelog ==
+1.4.4:
+	- Fixed: Added temporary fix for wordpress installs that are based on composer, the used relative path code was not accurate across all wordpress installs, preventing install to succeed.
 1.4.3:
 	- Fixed: Added quick test to ensure required core files exist. If the test fails it wont initialize the plugin.
 1.4.2:
